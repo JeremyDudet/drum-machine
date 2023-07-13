@@ -22,7 +22,7 @@ export default function Home() {
   const [isPowerOn, setIsPowerOn] = useState(true);
 
   // state to track volume
-  const [volume, setVolume] = useState(50);
+  const [volume, setVolume] = useState("50");
 
   // function to play a sound
   const playSound = (key) => {
